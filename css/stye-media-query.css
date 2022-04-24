@@ -1,0 +1,581 @@
+
+     @media screen and  (max-width: 1200px) {
+       
+        .banner-container{
+            margin-top: 5%;
+        }
+        .banner-container .banner-text h2{
+            text-align: center;
+            font-size: 30px;
+        }
+        .banner-container .banner-text h6, i{
+            font-size: 16px;
+        }
+        .banner-image{
+            width: 90%;
+            margin-right: 5%;
+            margin-left: 5%;
+
+        }
+        .banner-container .banner-image img{
+            width: 100%;
+            height: 500px;
+        }
+        .banner-container .banner-btn{
+            margin-top: 20px;
+        }
+        .sponsor-container{
+            flex-direction: row;
+            width: 90%;
+        }
+       .sponsor-container .sponsor{
+            width: 20%;
+            padding: 5px;
+        }
+        .sponsor-container .sponsor img{
+            width: 80%;
+            margin: 0px 10px 10px 0px;
+        }
+        .about-container{
+            width: 70%;
+            margin: 0% 15%;
+        }
+        .about-container .about{
+            flex-wrap: wrap;
+        }
+        .about-container .about h2{
+            padding-bottom: 10px;
+        }
+        .about-container .about p{
+            font-size: 16px;
+            padding: 8px;
+            text-align: center;
+        }
+        .web-container, .product-1{
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .web-container .web-image, .product-1-image{
+            margin: 5px;
+            flex-wrap: wrap;
+            align-items: center;
+            width: 45%;
+            margin-right: 5%;
+            margin-left: 5%;
+        }
+        .web-container .web-image img, .product-1 .product-1-image img{
+            width: 100%;
+            height: 300px;
+            
+        }
+        .web-container .web-text{
+            margin: 5px;
+            text-align: left;
+            width: 55%;
+            margin-right: 5%;
+        }
+        .web-container .web-text p{
+            padding: 5px;
+        }
+        .web-container .web-text hr{
+            margin-bottom: 5px;
+        }
+        #mobile-image{
+            order: 2;
+        }
+        #mobile-text{
+            order: 1;
+            margin-left: 5%;
+        }
+        #mobile-text h2{
+            padding-left: 0px;
+        }
+        #mobile-text hr{
+            margin-left: 0px;
+        }
+        #mobile-text p{
+            padding-left: 0px;
+        }
+        .talk-btn{
+            margin-top: 10px;
+        }
+        /* OUR PRODUCTS */
+        .products-container h2{
+            text-align: center;
+        }
+        .product-1 .product-1-image{
+            /* margin-left: 5px; */
+            width: 57%;
+            margin-right: 5%;
+            margin-left: 5%;
+
+        }
+        .product-1 .product-1-image img{
+            width: 100%;
+            height: 100%;
+        }
+        .product-1 .product-1-text{
+            margin: 10px;
+            width: 43%;
+        }
+        .product-1 .product-1-text h3, h4{
+            padding-bottom: 5px;
+            text-align: left;
+            padding-top: 0px;
+        }
+        .product-1 .product-1-text p{
+            text-align: justify;
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+        #adkandi-image{
+            order: 2;
+            margin-left: 5%;
+            width: 55%;
+        }
+        #adkandi-image img{
+            width: 130%;
+        }
+        #adkandi-text{
+            order: 1;
+            margin-left: 5%;
+            width: 45%;
+        }
+        /* CONTACT FORM */
+        .form-header{
+            margin-left: 10px;
+            text-align: center;
+        }
+        .contact-form-container{
+            flex-direction: column;
+            margin-top: 2px;
+            margin-left: 5%;
+            margin-right: 5%;
+            flex-flow: wrap;
+            width: 90%;
+        }
+        .contact-form{
+            margin-top: 10px;
+            flex-wrap: wrap;
+            width: 100%;
+            
+        }
+        .contact-form-container .contact-form input[type=text]{
+            /* max-width: 450px; */
+            /* margin-right: 50px; */
+            margin-left: 0px;
+            width: inherit;
+        }
+        .contact-form textarea{
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+
+    @media screen and  (max-width: 900px) {
+        .nav-container{
+            display: none;
+        }
+        #menu-list{
+            display: block;
+            top: 0;
+            width: fit-content;
+            margin-left: 2%;
+            margin-right: 3%;
+        }
+        #menu-list button{
+            float: right;
+            margin-right: 5%;
+            margin-top: 2%;
+        }
+        #menu-list span{
+            font-weight: bolder;
+            color: #000;
+        }
+        #menu-list span a{
+         text-decoration: none;
+        }
+        #hamburger{
+         float: right;
+         margin-top: -45px;
+         margin-right: 5%;
+         font-size: 30px;
+         border-radius: 3px;
+         cursor: pointer;
+         display: block;
+         width: 60px;
+         border: none;
+         background-color: #fff;
+        }
+        div.panel{
+            margin-top: 0%;
+        }
+
+        .banner-container{
+            margin-top: 5%;
+        }
+        .banner-container .banner-text h2{
+            text-align: center;
+            font-size: 30px;
+        }
+        .banner-container .banner-text h6, i{
+            font-size: 16px;
+        }
+        .banner-image{
+            
+            width: 90%;
+            margin-right: 5%;
+            margin-left: 5%;
+
+        }
+        .banner-container .banner-image img{
+            width: 100%;
+            height: 300px;
+        }
+        .banner-container .banner-btn{
+            margin-top: 20px;
+        }
+        .sponsor-container{
+            flex-direction: column;
+            width: 90%;
+        }
+       .sponsor-container .sponsor{
+            width: 90%;
+            padding: 5px;
+           align-items: center;
+        }
+        .sponsor-container .sponsor img{
+            width: 60%;
+           margin: 3px 20%;
+        }
+
+        /* ABOUT US */
+        .about-container{
+            width: 90%;
+            margin: 0% 5%;
+        }
+        .about-container .about{
+            flex-wrap: wrap;
+        }
+        .about-container .about h2{
+            padding-bottom: 10px;
+        }
+        .about-container .about p{
+            font-size: 16px;
+            padding: 8px;
+            text-align: center;
+        }
+
+        /*  */
+
+        /* OUR SERVICES CONTAINER */
+        .web-container, .product-1{
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .web-container .web-image, .product-1-image{
+            margin: 5px;
+            flex-wrap: wrap;
+            align-items: center;
+            width: 45%;
+            margin-right: 5%;
+            margin-left: 5%;
+        }
+        .web-container .web-image img, .product-1 .product-1-image img{
+            width: 100%;
+            height: 300px;
+            
+        }
+        .web-container .web-text{
+            margin: 5px;
+            text-align: left;
+            width: 55%;
+            margin-right: 5%;
+        }
+        .web-container .web-text p{
+            padding: 5px;
+        }
+        .web-container .web-text hr{
+            margin-bottom: 5px;
+        }
+        #mobile-image{
+            order: 2;
+        }
+        #mobile-text{
+            order: 1;
+            margin-left: 5%;
+        }
+        #mobile-text h2{
+            padding-left: 0px;
+        }
+        #mobile-text hr{
+            margin-left: 0px;
+        }
+        #mobile-text p{
+            padding-left: 0px;
+        }
+        .talk-btn{
+            margin-top: 10px;
+        }
+
+        /* OUR PRODUCTS */
+        .product-1 .product-1-image{
+            /* margin-left: 5px; */
+            width: 90%;
+            margin-right: 5%;
+            margin-left: 5%;
+
+        }
+        .product-1 .product-1-text{
+            margin: 10px;
+        }
+        .product-1 .product-1-text h3, h4{
+            padding-bottom: 5px;
+            text-align: center;
+        }
+        .product-1 .product-1-text p{
+            text-align: justify;
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+        /* CONTACT FORM */
+        .form-header{
+            margin-left: 10px;
+            text-align: center;
+        }
+        .contact-form-container{
+            flex-direction: column;
+            margin-top: 2px;
+            margin-left: 5%;
+            margin-right: 5%;
+            flex-flow: wrap;
+            width: 90%;
+        }
+        .contact-form{
+            margin-top: 10px;
+            flex-wrap: wrap;
+            width: 100%;
+            
+        }
+        .contact-form-container .contact-form input[type=text]{
+            /* max-width: 450px; */
+            /* margin-right: 50px; */
+            margin-left: 0px;
+            width: inherit;
+        }
+        .contact-form textarea{
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+
+@media screen and  (max-width: 700px) {
+   .nav-container{
+       display: none;
+   }
+   #menu-list{
+       display: block;
+       top: 0;
+       width: fit-content;
+       margin-left: 2%;
+       margin-right: 3%;
+   }
+   #menu-list button{
+       float: right;
+       margin-right: 5%;
+       margin-top: 2%;
+   }
+   #menu-list span{
+       font-weight: bolder;
+       color: #000;
+   }
+   #menu-list span a{
+    text-decoration: none;
+}
+#hamburger{
+    float: right;
+    margin-top: -45px;
+    margin-right: 5%;
+    font-size: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    width: 60px;
+    border: none;
+    background-color: #fff;
+}
+    .banner-container{
+        margin-top: 0;
+    }
+    .banner-container .banner-text h2{
+        text-align: center;
+        font-size: 20px;
+    }
+    .banner-container .banner-text h6, i{
+        font-size: 14px;
+    }
+    .banner-image{
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+
+    }
+    .banner-container .banner-image img{
+        width: 100%;
+        height: 300px;
+    }
+    .banner-container .banner-btn{
+        margin-top: 20px;
+    }
+    .sponsor-container{
+        flex-direction: column;
+    }
+    .about-container .about{
+        flex-wrap: wrap;
+    }
+    .about-container .about h2{
+        padding-bottom: 10px;
+    }
+    .about-container .about p{
+        font-size: 16px;
+        padding: 8px;
+        text-align: justify;
+    }
+    .web-container, .product-1{
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        margin: 0% 5%;
+    }
+    .web-container .web-image, .product-1-image{
+        margin: 0 15%;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 70%;
+        order: 2;
+    }
+    .web-container .web-image img, .product-1 .product-1-image img{
+        width: 100%;
+        height: 300px;
+        
+    }
+    .web-container .web-text{
+        margin: 2% 0%;
+        text-align: justify;
+        flex-wrap: wrap;
+        width: 100%;
+        order: 1;
+    }
+    .web-container .web-text p{
+        padding: 5px;
+    }
+    .web-container .web-text hr{
+        margin-bottom: 5px;
+    }
+    #mobile-image{
+        order: 2;
+    }
+    #mobile-text{
+        order: 1;
+        margin: 2% 0;
+    }
+    #mobile-text h2{
+        padding-left: 0px;
+    }
+    #mobile-text hr{
+        margin-left: 0px;
+    }
+    #mobile-text p{
+        padding-left: 0px;
+    }
+    .talk-btn{
+        margin-top: 10px;
+    }
+
+    /* OUR PRODUCTS */
+    /* .products-container{
+        
+    } */
+    .products-container h2{
+        text-align: center;
+    }
+    .product-1{
+        width: 100%;
+        margin: 0;
+    }
+    .product-1 .product-1-image{
+        width: 96%;
+        margin-right: 2%;
+        margin-left: 2%;
+        order: 1;
+
+    }
+    .product-1 .product-1-image img{
+        width: 100%;
+        height: 80%;
+    }
+    .product-1 .product-1-text{
+        margin: 2% 0;
+        width: 98%;
+        order: 2;
+    }
+    .product-1 .product-1-text h3, h4{
+        padding-bottom: 5px;
+        text-align: left;
+        padding-top: 0px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .product-1 .product-1-text p{
+        text-align: justify;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    #adkandi-image{
+        order: 2;
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+    }
+    #adkandi-image img{
+        width: 100%;
+        height: 80%;
+        margin-left: 10%;
+    }
+    #adkandi-text{
+        order: 1;
+        margin: 2% 0;
+        width: 98%;
+    }
+
+
+    /* CONTACT FORM */
+    .form-header{
+        margin-left: 10px;
+        text-align: center;
+    }
+    .contact-form-container{
+        flex-direction: column;
+        margin-top: 2%;
+        width: 90%;
+    }
+    .contact-form{
+        margin-top: 10px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .contact-form-container .contact-form input[type=text]{
+        margin-left: 0px;
+        width: inherit;
+    }
+    .contact-form textarea{
+        width: 100%;
+        max-width: 100%;
+    }
+    /*  */
+}
+    
+    
+
+    
+    
